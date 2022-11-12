@@ -1,0 +1,34 @@
+
+.introduction-image{
+    height: auto;
+    /* max-height: 500px; */
+    width: 100%;
+}
+
+.introduction-success-button, .introduction-secondary-button{
+    padding: 14px 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    border : none;
+}
+
+.introduction-success-button{
+    
+    background-color: #359756;
+    color: #ffffff;
+}
+
+.introduction-secondary-button{
+    background-color: #e5e5e5;
+    color: black;
+}
+
+.big-green-heading{
+    width: 70%;
+}
+
+@media only screen and (max-width: 576px){
+    .big-green-heading{
+        width: 100%;
+    }
+}

@@ -1,0 +1,70 @@
+
+.navbar-expand{
+    border: none;
+    background-color: inherit;
+}
+
+.icon{
+    width: 30px;
+}
+
+.navbar-brand{
+    font-family: 'Roboto Mono', monospace;
+    font-size: xx-large;
+    color: grey;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.navbar-menu-items{
+    font-size: large;
+    text-decoration: underline;
+    color: #359756;
+    cursor: pointer;
+}
+.navbar-expand-btn-2{
+    display: none;
+    
+}
+
+.navbar-toggler-icon {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Ic_menu_48px.svg");
+}
+
+.social-media-column{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+@media only screen and (max-width: 576px){
+ .navbar-expand-btn-2{
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+ }
+
+ .navbar-expand{
+    margin-left: 40%;
+ }
+
+ .navbar-expand-btn-1{
+    display: none;
+ }
+
+ .navbar-brand-column{
+    display: flex;
+    justify-content: center;
+ }
+
+ .navbar .container{    
+    display: initial;
+ }
+ .social-media-column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+}
+}
+  
