@@ -1,6 +1,6 @@
 import React from 'react';
 import './Solutions.css';
-import createAmazingImage from '../../../assets/create-amazing.png';
+import createAmazingImage from '../../../assets/create-amazing-image.svg';
 import greenLock from '../../../assets/green-padlock-11777.svg';
 
 function Solutions() {
@@ -120,9 +120,7 @@ function Solutions() {
 
               <img
                 className="createAmazingImage"
-                src={
-                  'https://www.kindpng.com/picc/m/539-5393673_banner-responsive-website-design-png-transparent-png.png'
-                }
+                src={createAmazingImage}
                 alt="Create Amazing Banner"
               />
             </div>
